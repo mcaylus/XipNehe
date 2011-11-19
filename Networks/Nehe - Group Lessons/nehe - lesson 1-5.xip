@@ -1,0 +1,2320 @@
+#Inventor V2.1 ascii
+
+### 0 ###
+SoXipBuilderNode {
+    placement	1.30084 6.3 3.89953 7.1
+    flags	()
+    autoPanelPos	224 26 0 0
+    node	    SoXipViewportGroup {
+	fields [ MFVec4f viewports, SFInt32 current,  ]
+	viewports	[ 0 0 0.2 1,
+			  0.2 0 0.2 1,
+			  0.4 0 0.2 1,
+			  0.6 0 0.2 1,
+			  0.8 0 0.2 1 ]
+	current	1
+    }
+
+}
+#addChild "0" "1 8 27 46 83"
+
+### 1 ###
+SoXipBuilderNode {
+    placement	-5.34477 4.04183 -3.34477 4.84183
+    flags	()
+    node	    Separator {
+    }
+
+}
+#addChild "1" "2 3 4"
+
+### 2 ###
+SoXipBuilderNode {
+    placement	-8.1 1.5 -5.86732 2.3
+    flags	()
+    node	    SoXipBackground {
+	fields [ MFColor color, MFFloat alpha ]
+	color	[ 0 0 0,
+			  0 0 0,
+			  0.5 0.5 0.5,
+			  0.5 0.5 0.5 ]
+	alpha	[ 1, 1, 1, 1 ]
+    }
+
+}
+
+### 3 ###
+SoXipBuilderNode {
+    placement	-5.4 1.5 -2.72811 2.3
+    flags	()
+    node	    SoXipViewportBorder {
+	fields [  ]
+    }
+
+}
+
+### 4 ###
+SoXipBuilderNode {
+    placement	-0.321895 2.70425 1.6781 3.50425
+    flags	()
+    node	    Separator {
+    }
+
+}
+#addChild "4" "5 6 7"
+
+### 5 ###
+SoXipBuilderNode {
+    placement	-3.3 0.3 -0.609804 1.1
+    flags	()
+    autoPanelPos	1039 484 0 0
+    node	    SoXipImageTextColor {
+	fields [ SFEnum position, SFColor color ]
+	position	TP_LOWER_RIGHT
+	color	0.5 0.5 1
+    }
+
+}
+
+### 6 ###
+SoXipBuilderNode {
+    placement	0 0.3 2 1.1
+    flags	()
+    autoPanelPos	1039 249 0 0
+    node	    SoXipImageText {
+	fields [ SFEnum position, SFString text ]
+	position	TP_LOWER_RIGHT
+	text	"XipNehe - Lesson 1"
+    }
+
+}
+
+### 7 ###
+SoXipBuilderNode {
+    placement	2.4 0.3 5.3098 1.1
+    flags	()
+    autoPanelPos	1042 358 0 0
+    node	    SoXipDisplayImageText {
+	fields [ SFNode orthoCamera, SFNode materialUL, SFNode translationUL, SFNode textUL,
+		SFNode materialUC, SFNode translationUC, SFNode textUC, SFNode materialUR,
+		SFNode translationUR, SFNode textUR, SFNode materialCL, SFNode translationCL,
+		SFNode textCL, SFNode materialCR, SFNode translationCR, SFNode textCR,
+		SFNode materialLL, SFNode translationLL, SFNode textLL, SFNode materialLC,
+		SFNode translationLC, SFNode textLC, SFNode materialLR, SFNode translationLR,
+		SFNode textLR,  ]
+	orthoCamera		OrthographicCamera {
+	}
+
+	materialUL		Material {
+	    diffuseColor	0.8 0.8 0.8
+	}
+
+	translationUL		Translation {
+	    translation	-0.955556 1.41333 0
+	}
+
+	textUL		SoXipText2 {
+	    fields [ SFString string, SFEnum justification, SFEnum vAlignment ]
+	    string	""
+	    justification	LEFT
+	    vAlignment	TOP
+	}
+
+	materialUC		Material {
+	    diffuseColor	0.8 0.8 0.8
+	}
+
+	translationUC		Translation {
+	    translation	0 1.41333 0
+	}
+
+	textUC		SoXipText2 {
+	    fields [ SFString string, SFEnum justification, SFEnum vAlignment ]
+	    string	""
+	    justification	LEFT
+	    vAlignment	TOP
+	}
+
+	materialUR		Material {
+	    diffuseColor	0.8 0.8 0.8
+	}
+
+	translationUR		Translation {
+	    translation	0.955556 1.41333 0
+	}
+
+	textUR		SoXipText2 {
+	    fields [ SFString string, SFEnum justification, SFEnum vAlignment ]
+	    string	""
+	    justification	RIGHT
+	    vAlignment	TOP
+	}
+
+	materialCL		Material {
+	    diffuseColor	0.8 0.8 0.8
+	}
+
+	translationCL		Translation {
+	    translation	-0.955556 0 0
+	}
+
+	textCL		SoXipText2 {
+	    fields [ SFString string, SFEnum justification, SFEnum vAlignment ]
+	    string	""
+	    justification	LEFT
+	    vAlignment	CENTER
+	}
+
+	materialCR		Material {
+	    diffuseColor	0.8 0.8 0.8
+	}
+
+	translationCR		Translation {
+	    translation	0.955556 0 0
+	}
+
+	textCR		SoXipText2 {
+	    fields [ SFString string, SFEnum justification, SFEnum vAlignment ]
+	    string	""
+	    justification	RIGHT
+	    vAlignment	CENTER
+	}
+
+	materialLL		Material {
+	    diffuseColor	0.8 0.8 0.8
+	}
+
+	translationLL		Translation {
+	    translation	-0.955556 -1.41333 0
+	}
+
+	textLL		SoXipText2 {
+	    fields [ SFString string, SFEnum justification, SFEnum vAlignment ]
+	    string	""
+	    justification	LEFT
+	    vAlignment	BOTTOM
+	}
+
+	materialLC		Material {
+	    diffuseColor	0.8 0.8 0.8
+	}
+
+	translationLC		Translation {
+	    translation	0 -1.41333 0
+	}
+
+	textLC		SoXipText2 {
+	    fields [ SFString string, SFEnum justification, SFEnum vAlignment ]
+	    string	""
+	    justification	LEFT
+	    vAlignment	BOTTOM
+	}
+
+	materialLR		Material {
+	    diffuseColor	0.5 0.5 1
+	}
+
+	translationLR		Translation {
+	    translation	0.955556 -1.41333 0
+	}
+
+	textLR		SoXipText2 {
+	    fields [ SFString string, SFEnum justification, SFEnum vAlignment ]
+	    string	"XipNehe - Lesson 1
+"
+	    justification	RIGHT
+	    vAlignment	BOTTOM
+	}
+
+    }
+
+}
+
+### 8 ###
+SoXipBuilderNode {
+    placement	5.7 4.2 8.9 5
+    flags	()
+    node	    Separator {
+    }
+
+}
+#addChild "8" "9 10 11 12 17 22 23"
+
+### 9 ###
+SoXipBuilderNode {
+    placement	1.2 1.5 3.60298 2.3
+    flags	()
+    autoPanelPos	286 55 0 0
+    node	    PerspectiveCamera {
+    }
+
+}
+
+### 10 ###
+SoXipBuilderNode {
+    placement	3.9 1.5 6.13268 2.3
+    flags	()
+    node	    SoXipBackground {
+	fields [ MFColor color, MFFloat alpha ]
+	color	[ 0 0 0,
+			  0 0 0,
+			  0.5 0.5 0.5,
+			  0.5 0.5 0.5 ]
+	alpha	[ 1, 1, 1, 1 ]
+    }
+
+}
+
+### 11 ###
+SoXipBuilderNode {
+    placement	6.9 1.5 8.9 2.3
+    flags	()
+    autoPanelPos	147 184 0 0
+    node	    LightModel {
+	model	BASE_COLOR
+    }
+
+}
+
+### 12 ###
+SoXipBuilderNode {
+    placement	0.3 0 2.3 0.8
+    flags	()
+    node	    Group {
+    }
+
+}
+#addChild "12" "13 15 16"
+
+### 13 ###
+SoXipBuilderNode {
+    placement	-2.1 -2.1 -0.0999991 -1.3
+    flags	()
+    autoPanelPos	352 93 0 0
+    node	    MatrixTransform {
+	matrix	1 0 0 0
+		0 1 0 0
+		0 0 1 0
+		-1.5 0 -6 1
+    }
+
+}
+#connect "matrix@13" "matrix@14"
+
+### 14 ###
+SoXipBuilderEngine {
+    placement	-4.8 -2.1 -2.8 -1.3
+    flags	()
+    autoPanelPos	145 79 0 0
+    engine	    DEF Tranlation ComposeMatrix {
+	translation	-1.5 0 -6
+    }
+
+}
+
+### 15 ###
+SoXipBuilderNode {
+    placement	0.3 -2.1 2.3 -1.3
+    flags	()
+    autoPanelPos	277 280 0 0
+    node	    VertexProperty {
+	vertex	[ 0 1 0,
+			  -1 -1 0,
+			  1 -1 0 ]
+    }
+
+}
+
+### 16 ###
+SoXipBuilderNode {
+    placement	2.7 -2.1 4.7 -1.3
+    flags	()
+    autoPanelPos	382 273 0 0
+    node	    DEF Triangle FaceSet {
+	numVertices	3
+    }
+
+}
+
+### 17 ###
+SoXipBuilderNode {
+    placement	0.3 0 2.3 0.8
+    flags	()
+    node	    Group {
+    }
+
+}
+#addChild "17" "18 20 21"
+
+### 18 ###
+SoXipBuilderNode {
+    placement	-2.1 -2.1 -0.0999991 -1.3
+    flags	()
+    autoPanelPos	352 93 0 0
+    node	    MatrixTransform {
+	matrix	1 0 0 0
+		0 1 0 0
+		0 0 1 0
+		3 0 0 1
+    }
+
+}
+#connect "matrix@18" "matrix@19"
+
+### 19 ###
+SoXipBuilderEngine {
+    placement	-4.8 -2.1 -2.8 -1.3
+    flags	()
+    autoPanelPos	105 358 0 0
+    engine	    DEF Tranlation ComposeMatrix {
+	translation	3 0 0
+    }
+
+}
+
+### 20 ###
+SoXipBuilderNode {
+    placement	0.3 -2.1 2.3 -1.3
+    flags	()
+    autoPanelPos	342 371 0 0
+    node	    VertexProperty {
+	vertex	[ -1 1 0,
+			  1 1 0,
+			  1 -1 0,
+			  -1 -1 0 ]
+    }
+
+}
+
+### 21 ###
+SoXipBuilderNode {
+    placement	2.7 -2.1 4.7 -1.3
+    flags	()
+    autoPanelPos	427 378 0 0
+    node	    DEF Triangle FaceSet {
+	numVertices	4
+    }
+
+}
+
+### 22 ###
+SoXipBuilderNode {
+    placement	17.4 1.5 20.1867 2.3
+    flags	()
+    node	    SoXipViewportBorder {
+	fields [  ]
+    }
+
+}
+
+### 23 ###
+SoXipBuilderNode {
+    placement	0.240849 3.1853 2.24085 3.9853
+    flags	()
+    node	    Separator {
+    }
+
+}
+#addChild "23" "24 25 26"
+
+### 24 ###
+SoXipBuilderNode {
+    placement	-2.7 0.9 -0.00980413 1.7
+    flags	()
+    autoPanelPos	1039 484 0 0
+    node	    SoXipImageTextColor {
+	fields [ SFEnum position, SFColor color ]
+	position	TP_LOWER_RIGHT
+	color	0.5 0.5 1
+    }
+
+}
+
+### 25 ###
+SoXipBuilderNode {
+    placement	0.6 0.9 2.6 1.7
+    flags	()
+    autoPanelPos	1039 249 0 0
+    node	    SoXipImageText {
+	fields [ SFEnum position, SFString text ]
+	position	TP_LOWER_RIGHT
+	text	"XipNehe - Lesson 2"
+    }
+
+}
+
+### 26 ###
+SoXipBuilderNode {
+    placement	3 0.9 5.9098 1.7
+    flags	()
+    autoPanelPos	678 115 0 0
+    node	    SoXipDisplayImageText {
+	fields [ SFNode orthoCamera, SFNode materialUL, SFNode translationUL, SFNode textUL,
+		SFNode materialUC, SFNode translationUC, SFNode textUC, SFNode materialUR,
+		SFNode translationUR, SFNode textUR, SFNode materialCL, SFNode translationCL,
+		SFNode textCL, SFNode materialCR, SFNode translationCR, SFNode textCR,
+		SFNode materialLL, SFNode translationLL, SFNode textLL, SFNode materialLC,
+		SFNode translationLC, SFNode textLC, SFNode materialLR, SFNode translationLR,
+		SFNode textLR,  ]
+	orthoCamera		OrthographicCamera {
+	}
+
+	materialUL		Material {
+	    diffuseColor	0.8 0.8 0.8
+	}
+
+	translationUL		Translation {
+	    translation	-0.955556 1.41333 0
+	}
+
+	textUL		SoXipText2 {
+	    fields [ SFString string, SFEnum justification, SFEnum vAlignment ]
+	    string	""
+	    justification	LEFT
+	    vAlignment	TOP
+	}
+
+	materialUC		Material {
+	    diffuseColor	0.8 0.8 0.8
+	}
+
+	translationUC		Translation {
+	    translation	0 1.41333 0
+	}
+
+	textUC		SoXipText2 {
+	    fields [ SFString string, SFEnum justification, SFEnum vAlignment ]
+	    string	""
+	    justification	LEFT
+	    vAlignment	TOP
+	}
+
+	materialUR		Material {
+	    diffuseColor	0.8 0.8 0.8
+	}
+
+	translationUR		Translation {
+	    translation	0.955556 1.41333 0
+	}
+
+	textUR		SoXipText2 {
+	    fields [ SFString string, SFEnum justification, SFEnum vAlignment ]
+	    string	""
+	    justification	RIGHT
+	    vAlignment	TOP
+	}
+
+	materialCL		Material {
+	    diffuseColor	0.8 0.8 0.8
+	}
+
+	translationCL		Translation {
+	    translation	-0.955556 0 0
+	}
+
+	textCL		SoXipText2 {
+	    fields [ SFString string, SFEnum justification, SFEnum vAlignment ]
+	    string	""
+	    justification	LEFT
+	    vAlignment	CENTER
+	}
+
+	materialCR		Material {
+	    diffuseColor	0.8 0.8 0.8
+	}
+
+	translationCR		Translation {
+	    translation	0.955556 0 0
+	}
+
+	textCR		SoXipText2 {
+	    fields [ SFString string, SFEnum justification, SFEnum vAlignment ]
+	    string	""
+	    justification	RIGHT
+	    vAlignment	CENTER
+	}
+
+	materialLL		Material {
+	    diffuseColor	0.8 0.8 0.8
+	}
+
+	translationLL		Translation {
+	    translation	-0.955556 -1.41333 0
+	}
+
+	textLL		SoXipText2 {
+	    fields [ SFString string, SFEnum justification, SFEnum vAlignment ]
+	    string	""
+	    justification	LEFT
+	    vAlignment	BOTTOM
+	}
+
+	materialLC		Material {
+	    diffuseColor	0.8 0.8 0.8
+	}
+
+	translationLC		Translation {
+	    translation	0 -1.41333 0
+	}
+
+	textLC		SoXipText2 {
+	    fields [ SFString string, SFEnum justification, SFEnum vAlignment ]
+	    string	""
+	    justification	LEFT
+	    vAlignment	BOTTOM
+	}
+
+	materialLR		Material {
+	    diffuseColor	0.5 0.5 1
+	}
+
+	translationLR		Translation {
+	    translation	0.955556 -1.41333 0
+	}
+
+	textLR		SoXipText2 {
+	    fields [ SFString string, SFEnum justification, SFEnum vAlignment ]
+	    string	"XipNehe - Lesson 2
+"
+	    justification	RIGHT
+	    vAlignment	BOTTOM
+	}
+
+    }
+
+}
+
+### 27 ###
+SoXipBuilderNode {
+    placement	4.25173 3.57451 7.45173 4.37451
+    flags	()
+    node	    Separator {
+    }
+
+}
+#addChild "27" "28 29 30 31 36 41 45"
+
+### 28 ###
+SoXipBuilderNode {
+    placement	0.517424 0.9 3.06087 1.7
+    flags	()
+    autoPanelPos	96 266 0 0
+    node	    PerspectiveCamera {
+    }
+
+}
+
+### 29 ###
+SoXipBuilderNode {
+    placement	-2.4 0.9 -0.16732 1.7
+    flags	()
+    node	    SoXipBackground {
+	fields [ MFColor color, MFFloat alpha ]
+	color	[ 0 0 0,
+			  0 0 0,
+			  0.5 0.5 0.5,
+			  0.5 0.5 0.5 ]
+	alpha	[ 1, 1, 1, 1 ]
+    }
+
+}
+
+### 30 ###
+SoXipBuilderNode {
+    placement	3.6 0.9 5.6 1.7
+    flags	()
+    node	    DirectionalLight {
+    }
+
+}
+
+### 31 ###
+SoXipBuilderNode {
+    placement	0.8 0.5 2.8 1.3
+    flags	()
+    node	    Group {
+    }
+
+}
+#addChild "31" "32 34 35"
+
+### 32 ###
+SoXipBuilderNode {
+    placement	-1.67583 -1.6 0.491627 -0.8
+    flags	()
+    autoPanelPos	352 93 0 0
+    node	    MatrixTransform {
+	matrix	1 0 0 0
+		0 1 0 0
+		0 0 1 0
+		-1.5 0 -6 1
+    }
+
+}
+#connect "matrix@32" "matrix@33"
+
+### 33 ###
+SoXipBuilderEngine {
+    placement	-4.3 -1.6 -2.3 -0.8
+    flags	()
+    autoPanelPos	145 79 0 0
+    engine	    DEF Tranlation_copy ComposeMatrix {
+	translation	-1.5 0 -6
+    }
+
+}
+
+### 34 ###
+SoXipBuilderNode {
+    placement	0.9 -1.8 2.9 -1
+    flags	()
+    autoPanelPos	235 217 0 0
+    node	    VertexProperty {
+	vertex	[ 0 1 0,
+			  -1 -1 0,
+			  1 -1 0 ]
+	orderedRGBA	[ 0xff0000ff, 0xff00ff, 0xffff ]
+	materialBinding	PER_VERTEX
+    }
+
+}
+
+### 35 ###
+SoXipBuilderNode {
+    placement	3.3 -1.5 5.3 -0.7
+    flags	()
+    autoPanelPos	453 192 0 0
+    node	    DEF Triangle_copy FaceSet {
+	numVertices	3
+    }
+
+}
+
+### 36 ###
+SoXipBuilderNode {
+    placement	0.8 0.5 2.8 1.3
+    flags	()
+    node	    Group {
+    }
+
+}
+#addChild "36" "37 39 40"
+
+### 37 ###
+SoXipBuilderNode {
+    placement	-3.17583 -1.6 -1.00837 -0.8
+    flags	()
+    autoPanelPos	352 93 0 0
+    node	    MatrixTransform {
+	matrix	1 0 0 0
+		0 1 0 0
+		0 0 1 0
+		3 0 0 1
+    }
+
+}
+#connect "matrix@37" "matrix@38"
+
+### 38 ###
+SoXipBuilderEngine {
+    placement	-5.8 -1.6 -3.8 -0.8
+    flags	()
+    autoPanelPos	105 358 0 0
+    engine	    DEF Tranlation_copy_copy ComposeMatrix {
+	translation	3 0 0
+    }
+
+}
+
+### 39 ###
+SoXipBuilderNode {
+    placement	2.1 -1.5 4.1 -0.7
+    flags	()
+    autoPanelPos	116 360 0 0
+    node	    VertexProperty {
+	vertex	[ -1 1 0,
+			  -1 -1 0,
+			  1 -1 0,
+			  1 1 0 ]
+	orderedRGBA	[ 0x8888ffff, 0x8888ffff, 0x8888ffff, 0x8888ffff ]
+	materialBinding	PER_VERTEX
+	normalBinding	PER_VERTEX
+    }
+
+}
+
+### 40 ###
+SoXipBuilderNode {
+    placement	4.5 -1.5 6.5 -0.7
+    flags	()
+    autoPanelPos	349 384 0 0
+    node	    DEF Square FaceSet {
+	numVertices	4
+    }
+
+}
+
+### 41 ###
+SoXipBuilderNode {
+    placement	0.614849 2.82607 2.61485 3.62607
+    flags	()
+    node	    Separator {
+    }
+
+}
+#addChild "41" "42 43 44"
+
+### 42 ###
+SoXipBuilderNode {
+    placement	-3 0.9 -0.309804 1.7
+    flags	()
+    autoPanelPos	1039 484 0 0
+    node	    SoXipImageTextColor {
+	fields [ SFEnum position, SFColor color ]
+	position	TP_LOWER_RIGHT
+	color	0.5 0.5 1
+    }
+
+}
+
+### 43 ###
+SoXipBuilderNode {
+    placement	0.3 0.9 2.3 1.7
+    flags	()
+    autoPanelPos	1039 249 0 0
+    node	    SoXipImageText {
+	fields [ SFEnum position, SFString text ]
+	position	TP_LOWER_RIGHT
+	text	"XipNehe - Lesson 3"
+    }
+
+}
+
+### 44 ###
+SoXipBuilderNode {
+    placement	3.3 0.9 6.2098 1.7
+    flags	()
+    autoPanelPos	1042 358 0 0
+    node	    SoXipDisplayImageText {
+	fields [ SFNode orthoCamera, SFNode materialUL, SFNode translationUL, SFNode textUL,
+		SFNode materialUC, SFNode translationUC, SFNode textUC, SFNode materialUR,
+		SFNode translationUR, SFNode textUR, SFNode materialCL, SFNode translationCL,
+		SFNode textCL, SFNode materialCR, SFNode translationCR, SFNode textCR,
+		SFNode materialLL, SFNode translationLL, SFNode textLL, SFNode materialLC,
+		SFNode translationLC, SFNode textLC, SFNode materialLR, SFNode translationLR,
+		SFNode textLR,  ]
+	orthoCamera		OrthographicCamera {
+	}
+
+	materialUL		Material {
+	    diffuseColor	0.8 0.8 0.8
+	}
+
+	translationUL		Translation {
+	    translation	-0.955556 1.41333 0
+	}
+
+	textUL		SoXipText2 {
+	    fields [ SFString string, SFEnum justification, SFEnum vAlignment ]
+	    string	""
+	    justification	LEFT
+	    vAlignment	TOP
+	}
+
+	materialUC		Material {
+	    diffuseColor	0.8 0.8 0.8
+	}
+
+	translationUC		Translation {
+	    translation	0 1.41333 0
+	}
+
+	textUC		SoXipText2 {
+	    fields [ SFString string, SFEnum justification, SFEnum vAlignment ]
+	    string	""
+	    justification	LEFT
+	    vAlignment	TOP
+	}
+
+	materialUR		Material {
+	    diffuseColor	0.8 0.8 0.8
+	}
+
+	translationUR		Translation {
+	    translation	0.955556 1.41333 0
+	}
+
+	textUR		SoXipText2 {
+	    fields [ SFString string, SFEnum justification, SFEnum vAlignment ]
+	    string	""
+	    justification	RIGHT
+	    vAlignment	TOP
+	}
+
+	materialCL		Material {
+	    diffuseColor	0.8 0.8 0.8
+	}
+
+	translationCL		Translation {
+	    translation	-0.955556 0 0
+	}
+
+	textCL		SoXipText2 {
+	    fields [ SFString string, SFEnum justification, SFEnum vAlignment ]
+	    string	""
+	    justification	LEFT
+	    vAlignment	CENTER
+	}
+
+	materialCR		Material {
+	    diffuseColor	0.8 0.8 0.8
+	}
+
+	translationCR		Translation {
+	    translation	0.955556 0 0
+	}
+
+	textCR		SoXipText2 {
+	    fields [ SFString string, SFEnum justification, SFEnum vAlignment ]
+	    string	""
+	    justification	RIGHT
+	    vAlignment	CENTER
+	}
+
+	materialLL		Material {
+	    diffuseColor	0.8 0.8 0.8
+	}
+
+	translationLL		Translation {
+	    translation	-0.955556 -1.41333 0
+	}
+
+	textLL		SoXipText2 {
+	    fields [ SFString string, SFEnum justification, SFEnum vAlignment ]
+	    string	""
+	    justification	LEFT
+	    vAlignment	BOTTOM
+	}
+
+	materialLC		Material {
+	    diffuseColor	0.8 0.8 0.8
+	}
+
+	translationLC		Translation {
+	    translation	0 -1.41333 0
+	}
+
+	textLC		SoXipText2 {
+	    fields [ SFString string, SFEnum justification, SFEnum vAlignment ]
+	    string	""
+	    justification	LEFT
+	    vAlignment	BOTTOM
+	}
+
+	materialLR		Material {
+	    diffuseColor	0.5 0.5 1
+	}
+
+	translationLR		Translation {
+	    translation	0.955556 -1.41333 0
+	}
+
+	textLR		SoXipText2 {
+	    fields [ SFString string, SFEnum justification, SFEnum vAlignment ]
+	    string	"XipNehe - Lesson 3
+"
+	    justification	RIGHT
+	    vAlignment	BOTTOM
+	}
+
+    }
+
+}
+
+### 45 ###
+SoXipBuilderNode {
+    placement	13.2 0.9 15.8719 1.7
+    flags	()
+    node	    SoXipViewportBorder {
+	fields [  ]
+    }
+
+}
+
+### 46 ###
+SoXipBuilderNode {
+    placement	5.59159 3.07909 8.79159 3.87909
+    flags	()
+    node	    Separator {
+    }
+
+}
+#addChild "46" "47 48 49 50 64 78 79"
+
+### 47 ###
+SoXipBuilderNode {
+    placement	-0.9 0.3 1.64344 1.1
+    flags	()
+    autoPanelPos	105 262 0 0
+    node	    PerspectiveCamera {
+	nearDistance	5
+	farDistance	15
+    }
+
+}
+
+### 48 ###
+SoXipBuilderNode {
+    placement	2.4 0.3 4.63268 1.1
+    flags	()
+    node	    SoXipBackground {
+	fields [ MFColor color, MFFloat alpha ]
+	color	[ 0 0 0,
+			  0 0 0,
+			  0.5 0.5 0.5,
+			  0.5 0.5 0.5 ]
+	alpha	[ 1, 1, 1, 1 ]
+    }
+
+}
+
+### 49 ###
+SoXipBuilderNode {
+    placement	5.1 0.3 7.1 1.1
+    flags	()
+    autoPanelPos	426 300 0 0
+    node	    DirectionalLight {
+    }
+
+}
+
+### 50 ###
+SoXipBuilderNode {
+    placement	-0.099998 0.2 1.9 1
+    flags	()
+    node	    Separator {
+    }
+
+}
+#addChild "50" "51 56 60"
+
+### 51 ###
+SoXipBuilderNode {
+    placement	-1.67583 -1.6 0.491627 -0.8
+    flags	()
+    autoPanelPos	211 374 0 0
+    node	    MatrixTransform {
+	matrix	-0.998537 0 -0.0540662 0
+		0 1 0 0
+		0.0540662 0 -0.998537 0
+		-1.5 0 -6 1
+    }
+
+}
+#connect "matrix@51" "matrix@52"
+
+### 52 ###
+SoXipBuilderEngine {
+    placement	-4.3 -1.6 -2.3 -0.8
+    flags	()
+    autoPanelPos	161 105 0 0
+    engine	    DEF Tranlation_copy_copy_copy ComposeMatrix {
+	translation	-1.5 0 -6
+	rotation	0 1 0  3.0875
+    }
+
+}
+#connect "rotation@52" "rotation@53"
+
+### 53 ###
+SoXipBuilderEngine {
+    placement	-4.6 -2.8 -2.40597 -2
+    flags	()
+    autoPanelPos	75 419 0 0
+    engine	    DEF Rotation ComposeRotation {
+	axis	0 1 0
+	angle	3.0875
+    }
+
+}
+#connect "angle@53" "oa@54"
+
+### 54 ###
+SoXipBuilderEngine {
+    placement	-7.6 -2.8 -5.6 -2
+    flags	()
+    autoPanelPos	623 49 0 0
+    engine	    Calculator {
+	a	30875
+	expression	"oa = a /10000"
+    }
+
+}
+#connect "a@54" "output@55"
+
+### 55 ###
+SoXipBuilderEngine {
+    placement	-7.6 -4 -5.6 -3.2
+    flags	()
+    autoPanelPos	286 131 0 0
+    engine	    TimeCounter {
+	max	31415
+	frequency	0.5
+    }
+
+}
+
+### 56 ###
+SoXipBuilderNode {
+    placement	-0.6 -5.7 1.4 -4.9
+    flags	()
+    node	    DEF Front_Face Separator {
+    }
+
+}
+#addChild "56" "57 58 59"
+
+### 57 ###
+SoXipBuilderNode {
+    placement	-3 -7.2 -1 -6.4
+    flags	()
+    autoPanelPos	126 167 0 0
+    node	    ShapeHints {
+	vertexOrdering	CLOCKWISE
+	shapeType	SOLID
+    }
+
+}
+
+### 58 ###
+SoXipBuilderNode {
+    placement	-0.6 -7.2 1.4 -6.4
+    flags	()
+    autoPanelPos	7 398 0 0
+    node	    VertexProperty {
+	vertex	[ 0 1 0,
+			  1 -1 0,
+			  -1 -1 0 ]
+	normal	0 0 1
+	orderedRGBA	[ 0xff0000ff, 0xff00ff, 0xffff ]
+	materialBinding	PER_VERTEX
+	normalBinding	PER_FACE
+    }
+
+}
+
+### 59 ###
+SoXipBuilderNode {
+    placement	1.8 -7.2 3.8 -6.4
+    flags	()
+    autoPanelPos	494 369 0 0
+    node	    FaceSet {
+	numVertices	3
+    }
+
+}
+
+### 60 ###
+SoXipBuilderNode {
+    placement	6.96078 -4.42974 8.96078 -3.62974
+    flags	()
+    node	    DEF Back_Face Separator {
+    }
+
+}
+#addChild "60" "61 62 63"
+
+### 61 ###
+SoXipBuilderNode {
+    placement	4.4 -7 6.4 -6.2
+    flags	()
+    autoPanelPos	487 420 0 0
+    node	    ShapeHints {
+	vertexOrdering	CLOCKWISE
+	shapeType	SOLID
+    }
+
+}
+
+### 62 ###
+SoXipBuilderNode {
+    placement	6.5 -7 8.5 -6.2
+    flags	()
+    autoPanelPos	58 118 0 0
+    node	    VertexProperty {
+	vertex	[ 0 1 0,
+			  -1 -1 0,
+			  1 -1 0 ]
+	normal	0 0 -1
+	orderedRGBA	[ 0xff0000ff, 0xff00ff, 0xffff ]
+	materialBinding	PER_VERTEX
+	normalBinding	PER_FACE
+    }
+
+}
+
+### 63 ###
+SoXipBuilderNode {
+    placement	8.7 -6.9 10.7 -6.1
+    flags	()
+    autoPanelPos	494 369 0 0
+    node	    FaceSet {
+	numVertices	3
+    }
+
+}
+
+### 64 ###
+SoXipBuilderNode {
+    placement	-0.246269 0.835075 1.75373 1.63507
+    flags	()
+    node	    Separator {
+    }
+
+}
+#addChild "64" "65 70 74"
+
+### 65 ###
+SoXipBuilderNode {
+    placement	-4.37583 -1.6 -2.20837 -0.8
+    flags	()
+    autoPanelPos	158 238 0 0
+    node	    MatrixTransform {
+	matrix	1 0 0 0
+		0 -0.996991 0.0775149 0
+		0 -0.0775149 -0.996991 0
+		1.5 0 -6 1
+    }
+
+}
+#connect "matrix@65" "matrix@66"
+
+### 66 ###
+SoXipBuilderEngine {
+    placement	-7 -1.6 -5 -0.8
+    flags	()
+    autoPanelPos	376 405 0 0
+    engine	    DEF Tranlation_copy_copy_copy_copy ComposeMatrix {
+	translation	1.5 0 -6
+	rotation	1 0 0  3.064
+    }
+
+}
+#connect "rotation@66" "rotation@67"
+
+### 67 ###
+SoXipBuilderEngine {
+    placement	-7 -2.8 -4.80597 -2
+    flags	()
+    autoPanelPos	45 413 0 0
+    engine	    DEF Rotation_copy ComposeRotation {
+	axis	1 0 0
+	angle	3.064
+    }
+
+}
+#connect "angle@67" "oa@68"
+
+### 68 ###
+SoXipBuilderEngine {
+    placement	-10 -2.8 -8 -2
+    flags	()
+    autoPanelPos	0 416 0 0
+    engine	    Calculator {
+	a	30640
+	expression	"oa = a /10000"
+    }
+
+}
+#connect "a@68" "output@69"
+
+### 69 ###
+SoXipBuilderEngine {
+    placement	-10 -4 -8 -3.2
+    flags	()
+    autoPanelPos	0 458 0 0
+    engine	    TimeCounter {
+	max	31415
+	frequency	0.5
+    }
+
+}
+
+### 70 ###
+SoXipBuilderNode {
+    placement	5.6 0.5 7.6 1.3
+    flags	()
+    node	    Separator {
+    }
+
+}
+#addChild "70" "71 72 73"
+
+### 71 ###
+SoXipBuilderNode {
+    placement	2.9 -1.3 4.9 -0.5
+    flags	()
+    autoPanelPos	115 206 0 0
+    node	    ShapeHints {
+	vertexOrdering	COUNTERCLOCKWISE
+	shapeType	SOLID
+    }
+
+}
+
+### 72 ###
+SoXipBuilderNode {
+    placement	5.3 -1.3 7.3 -0.5
+    flags	()
+    autoPanelPos	238 415 0 0
+    node	    VertexProperty {
+	vertex	[ -1 1 0,
+			  -1 -1 0,
+			  1 -1 0,
+			  1 1 0 ]
+	normal	0 0 1
+	orderedRGBA	[ 0x8888ffff, 0x8888ffff, 0x8888ffff, 0x8888ffff ]
+	materialBinding	PER_VERTEX_INDEXED
+	normalBinding	PER_FACE
+    }
+
+}
+
+### 73 ###
+SoXipBuilderNode {
+    placement	7.8 -1.2 9.8 -0.4
+    flags	()
+    autoPanelPos	429 378 0 0
+    node	    DEF Square_Front FaceSet {
+	numVertices	4
+    }
+
+}
+
+### 74 ###
+SoXipBuilderNode {
+    placement	0.5 -1.3 2.5 -0.5
+    flags	()
+    node	    Separator {
+    }
+
+}
+#addChild "74" "75 76 77"
+
+### 75 ###
+SoXipBuilderNode {
+    placement	-2.2 -3.1 -0.2 -2.3
+    flags	()
+    autoPanelPos	153 228 0 0
+    node	    ShapeHints {
+	vertexOrdering	COUNTERCLOCKWISE
+	shapeType	SOLID
+    }
+
+}
+
+### 76 ###
+SoXipBuilderNode {
+    placement	0.3 -3 2.3 -2.2
+    flags	()
+    autoPanelPos	40 357 0 0
+    node	    VertexProperty {
+	vertex	[ -1 1 0,
+			  1 1 0,
+			  1 -1 0,
+			  -1 -1 0 ]
+	normal	0 0 -1
+	orderedRGBA	[ 0x8888ffff, 0x8888ffff, 0x8888ffff, 0x8888ffff ]
+	materialBinding	PER_VERTEX_INDEXED
+	normalBinding	PER_FACE
+    }
+
+}
+
+### 77 ###
+SoXipBuilderNode {
+    placement	2.7 -3 4.7 -2.2
+    flags	()
+    autoPanelPos	429 378 0 0
+    node	    DEF Square_Back FaceSet {
+	numVertices	4
+    }
+
+}
+
+### 78 ###
+SoXipBuilderNode {
+    placement	12 0.3 14.7867 1.1
+    flags	()
+    node	    SoXipViewportBorder {
+	fields [  ]
+    }
+
+}
+
+### 79 ###
+SoXipBuilderNode {
+    placement	0 3.3 2 4.1
+    flags	()
+    autoPanelPos	553 114 0 0
+    node	    Separator {
+	renderCaching	OFF
+    }
+
+}
+#addChild "79" "80 81 82"
+
+### 80 ###
+SoXipBuilderNode {
+    placement	-3 0.9 -0.309804 1.7
+    flags	SHOW_AUTOPANEL
+    autoPanelPos	857 484 0 0
+    node	    SoXipImageTextColor {
+	fields [ SFEnum position, SFColor color ]
+	position	TP_LOWER_RIGHT
+	color	0.5 0.5 1
+    }
+
+}
+
+### 81 ###
+SoXipBuilderNode {
+    placement	0.6 0.9 2.6 1.7
+    flags	()
+    autoPanelPos	611 169 0 0
+    node	    SoXipImageText {
+	fields [ SFEnum position, SFString text ]
+	position	TP_LOWER_RIGHT
+	text	"XipNehe - Lesson 4"
+    }
+
+}
+
+### 82 ###
+SoXipBuilderNode {
+    placement	3 0.9 5.9098 1.7
+    flags	()
+    autoPanelPos	1042 358 0 0
+    node	    SoXipDisplayImageText {
+	fields [ SFNode orthoCamera, SFNode materialUL, SFNode translationUL, SFNode textUL,
+		SFNode materialUC, SFNode translationUC, SFNode textUC, SFNode materialUR,
+		SFNode translationUR, SFNode textUR, SFNode materialCL, SFNode translationCL,
+		SFNode textCL, SFNode materialCR, SFNode translationCR, SFNode textCR,
+		SFNode materialLL, SFNode translationLL, SFNode textLL, SFNode materialLC,
+		SFNode translationLC, SFNode textLC, SFNode materialLR, SFNode translationLR,
+		SFNode textLR,  ]
+	orthoCamera		OrthographicCamera {
+	}
+
+	materialUL		Material {
+	    diffuseColor	0.8 0.8 0.8
+	}
+
+	translationUL		Translation {
+	    translation	-0.955556 1.41333 0
+	}
+
+	textUL		SoXipText2 {
+	    fields [ SFString string, SFEnum justification, SFEnum vAlignment ]
+	    string	""
+	    justification	LEFT
+	    vAlignment	TOP
+	}
+
+	materialUC		Material {
+	    diffuseColor	0.8 0.8 0.8
+	}
+
+	translationUC		Translation {
+	    translation	0 1.41333 0
+	}
+
+	textUC		SoXipText2 {
+	    fields [ SFString string, SFEnum justification, SFEnum vAlignment ]
+	    string	""
+	    justification	LEFT
+	    vAlignment	TOP
+	}
+
+	materialUR		Material {
+	    diffuseColor	0.8 0.8 0.8
+	}
+
+	translationUR		Translation {
+	    translation	0.955556 1.41333 0
+	}
+
+	textUR		SoXipText2 {
+	    fields [ SFString string, SFEnum justification, SFEnum vAlignment ]
+	    string	""
+	    justification	RIGHT
+	    vAlignment	TOP
+	}
+
+	materialCL		Material {
+	    diffuseColor	0.8 0.8 0.8
+	}
+
+	translationCL		Translation {
+	    translation	-0.955556 0 0
+	}
+
+	textCL		SoXipText2 {
+	    fields [ SFString string, SFEnum justification, SFEnum vAlignment ]
+	    string	""
+	    justification	LEFT
+	    vAlignment	CENTER
+	}
+
+	materialCR		Material {
+	    diffuseColor	0.8 0.8 0.8
+	}
+
+	translationCR		Translation {
+	    translation	0.955556 0 0
+	}
+
+	textCR		SoXipText2 {
+	    fields [ SFString string, SFEnum justification, SFEnum vAlignment ]
+	    string	""
+	    justification	RIGHT
+	    vAlignment	CENTER
+	}
+
+	materialLL		Material {
+	    diffuseColor	0.8 0.8 0.8
+	}
+
+	translationLL		Translation {
+	    translation	-0.955556 -1.41333 0
+	}
+
+	textLL		SoXipText2 {
+	    fields [ SFString string, SFEnum justification, SFEnum vAlignment ]
+	    string	""
+	    justification	LEFT
+	    vAlignment	BOTTOM
+	}
+
+	materialLC		Material {
+	    diffuseColor	0.8 0.8 0.8
+	}
+
+	translationLC		Translation {
+	    translation	0 -1.41333 0
+	}
+
+	textLC		SoXipText2 {
+	    fields [ SFString string, SFEnum justification, SFEnum vAlignment ]
+	    string	""
+	    justification	LEFT
+	    vAlignment	BOTTOM
+	}
+
+	materialLR		Material {
+	    diffuseColor	0.5 0.5 1
+	}
+
+	translationLR		Translation {
+	    translation	0.955556 -1.41333 0
+	}
+
+	textLR		SoXipText2 {
+	    fields [ SFString string, SFEnum justification, SFEnum vAlignment ]
+	    string	"XipNehe - Lesson 4
+"
+	    justification	RIGHT
+	    vAlignment	BOTTOM
+	}
+
+    }
+
+}
+
+### 83 ###
+SoXipBuilderNode {
+    placement	9.79178 4.46581 12.9918 5.26581
+    flags	()
+    node	    Separator {
+    }
+
+}
+#addChild "83" "84 85 86 87 95 107 108"
+
+### 84 ###
+SoXipBuilderNode {
+    placement	3.6 1.5 6.14344 2.3
+    flags	()
+    autoPanelPos	105 262 0 0
+    node	    PerspectiveCamera {
+    }
+
+}
+
+### 85 ###
+SoXipBuilderNode {
+    placement	6.6 1.5 8.6 2.3
+    flags	()
+    autoPanelPos	590 310 0 0
+    node	    LightModel {
+	model	BASE_COLOR
+    }
+
+}
+
+### 86 ###
+SoXipBuilderNode {
+    placement	9 1.5 11.2327 2.3
+    flags	()
+    node	    SoXipBackground {
+	fields [ MFColor color, MFFloat alpha ]
+	color	[ 0 0 0,
+			  0 0 0,
+			  0.5 0.5 0.5,
+			  0.5 0.5 0.5 ]
+	alpha	[ 1, 1, 1, 1 ]
+    }
+
+}
+
+### 87 ###
+SoXipBuilderNode {
+    placement	-0.287314 0.524627 1.71269 1.32463
+    flags	()
+    node	    Separator {
+    }
+
+}
+#addChild "87" "88 93 94"
+
+### 88 ###
+SoXipBuilderNode {
+    placement	-1.67583 -1.6 0.491627 -0.8
+    flags	()
+    autoPanelPos	211 374 0 0
+    node	    MatrixTransform {
+	matrix	-0.779084 0 -0.626919 0
+		0 1 0 0
+		0.626919 0 -0.779084 0
+		-1.5 0 -7 1
+    }
+
+}
+#connect "matrix@88" "matrix@89"
+
+### 89 ###
+SoXipBuilderEngine {
+    placement	-4.3 -1.6 -2.3 -0.8
+    flags	()
+    autoPanelPos	121 368 0 0
+    engine	    DEF Tranlation_copy_copy_copy_copy_copy ComposeMatrix {
+	translation	-1.5 0 -7
+	rotation	0 1 0  2.464
+    }
+
+}
+#connect "rotation@89" "rotation@90"
+
+### 90 ###
+SoXipBuilderEngine {
+    placement	-4.65464 -2.8 -2.33237 -2
+    flags	()
+    autoPanelPos	75 419 0 0
+    engine	    DEF Rotation_copy_copy ComposeRotation {
+	axis	0 1 0
+	angle	2.464
+    }
+
+}
+#connect "angle@90" "oa@91"
+
+### 91 ###
+SoXipBuilderEngine {
+    placement	-7.6 -2.8 -5.6 -2
+    flags	()
+    autoPanelPos	74 203 0 0
+    engine	    Calculator {
+	a	2464
+	expression	"oa = a /1000"
+    }
+
+}
+#connect "a@91" "output@92"
+
+### 92 ###
+SoXipBuilderEngine {
+    placement	-7.9 -4 -5.9 -3.2
+    flags	()
+    autoPanelPos	26 471 0 0
+    engine	    TimeCounter {
+	max	6238
+	frequency	0.1
+    }
+
+}
+
+### 93 ###
+SoXipBuilderNode {
+    placement	1.1 -1.6 3.1 -0.8
+    flags	()
+    autoPanelPos	325 370 0 0
+    node	    VertexProperty {
+	vertex	[ 0 1 0,
+			  -1 -1 1,
+			  1 -1 1,
+			  0 1 0,
+			  1 -1 1,
+			  1 -1 -1,
+			  0 1 0,
+			  1 -1 -1,
+			  -1 -1 -1,
+			  0 1 0,
+			  -1 -1 -1,
+			  -1 -1 1 ]
+	orderedRGBA	[ 0xff0000ff, 0xff00ff, 0xffff, 0xff0000ff, 0xffff, 0xff00ff, 0xff0000ff, 0xff00ff,
+			  0xffff, 0xff0000ff, 0xffff, 0xff00ff ]
+	materialBinding	PER_VERTEX_INDEXED
+    }
+
+}
+
+### 94 ###
+SoXipBuilderNode {
+    placement	4.1 -1.6 6.1 -0.8
+    flags	()
+    autoPanelPos	403 379 0 0
+    node	    DEF Triangle_copy_copy FaceSet {
+	numVertices	12
+    }
+
+}
+
+### 95 ###
+SoXipBuilderNode {
+    placement	-0.3 0.8 2.1 1.6
+    flags	()
+    node	    Separator {
+    }
+
+}
+#addChild "95" "96 101 103 105 106"
+
+### 96 ###
+SoXipBuilderNode {
+    placement	-3.17583 -1.6 -1.00837 -0.8
+    flags	()
+    autoPanelPos	703 47 0 0
+    node	    MatrixTransform {
+	matrix	1 0 0 0
+		0 -0.777829 0.628476 0
+		0 -0.628476 -0.777829 0
+		1.5 0 -7 1
+    }
+
+}
+#connect "matrix@96" "matrix@97"
+
+### 97 ###
+SoXipBuilderEngine {
+    placement	-5.8 -1.6 -3.8 -0.8
+    flags	()
+    autoPanelPos	102 338 0 0
+    engine	    DEF Tranlation_copy_copy_copy_copy_copy_copy ComposeMatrix {
+	translation	1.5 0 -7
+	rotation	1 0 0  2.462
+    }
+
+}
+#connect "rotation@97" "rotation@98"
+
+### 98 ###
+SoXipBuilderEngine {
+    placement	-6.1 -2.8 -3.77773 -2
+    flags	()
+    autoPanelPos	104 383 0 0
+    engine	    DEF Rotation_copy_copy_copy ComposeRotation {
+	axis	1 0 0
+	angle	2.462
+    }
+
+}
+#connect "angle@98" "oa@99"
+
+### 99 ###
+SoXipBuilderEngine {
+    placement	-8.8 -1.6 -6.8 -0.8
+    flags	()
+    autoPanelPos	112 62 0 0
+    engine	    Calculator {
+	a	2462
+	expression	"oa = a/1000"
+    }
+
+}
+#connect "a@99" "output@100"
+
+### 100 ###
+SoXipBuilderEngine {
+    placement	-8.8 -2.8 -6.8 -2
+    flags	()
+    autoPanelPos	5 385 0 0
+    engine	    TimeCounter {
+	max	6238
+	frequency	0.1
+    }
+
+}
+
+### 101 ###
+SoXipBuilderNode {
+    placement	-0.4 -4.6 1.76746 -3.8
+    flags	()
+    autoPanelPos	294 389 0 0
+    node	    MatrixTransform {
+	matrix	0.980067 0.198669 0 0
+		-0.198669 0.980067 0 0
+		0 0 1 0
+		0 0 0 1
+    }
+
+}
+#connect "matrix@101" "matrix@102"
+
+### 102 ###
+SoXipBuilderEngine {
+    placement	-0.4 -3.1 1.6 -2.3
+    flags	()
+    autoPanelPos	355 32 0 0
+    engine	    ComposeMatrix {
+	rotation	0 0 1  0.2
+    }
+
+}
+
+### 103 ###
+SoXipBuilderNode {
+    placement	2.6 -4.6 4.76746 -3.8
+    flags	()
+    autoPanelPos	294 389 0 0
+    node	    MatrixTransform {
+	matrix	0.696707 0 -0.717356 0
+		0 1 0 0
+		0.717356 0 0.696707 0
+		0 0 0 1
+    }
+
+}
+#connect "matrix@103" "matrix@104"
+
+### 104 ###
+SoXipBuilderEngine {
+    placement	2.6 -3.1 4.6 -2.3
+    flags	()
+    autoPanelPos	355 32 0 0
+    engine	    ComposeMatrix {
+	rotation	0 1 0  0.8
+    }
+
+}
+
+### 105 ###
+SoXipBuilderNode {
+    placement	-0.4 -1.6 1.6 -0.8
+    flags	()
+    autoPanelPos	276 425 0 0
+    node	    VertexProperty {
+	vertex	[ 1 1 -1,
+			  -1 1 -1,
+			  -1 1 1,
+			  1 1 1,
+			  1 -1 1,
+			  -1 -1 1,
+			  -1 -1 -1,
+			  1 -1 -1,
+			  1 1 1,
+			  -1 1 1,
+			  -1 -1 1,
+			  1 -1 1,
+			  1 -1 -1,
+			  -1 -1 -1,
+			  -1 1 -1,
+			  1 1 -1,
+			  -1 1 1,
+			  -1 1 -1,
+			  -1 -1 -1,
+			  -1 -1 1,
+			  1 1 -1,
+			  1 1 1,
+			  1 -1 1,
+			  1 -1 -1 ]
+	orderedRGBA	[ 0xff00ff, 0xff8800ff, 0xff0000ff, 0xffff00ff, 0xffff, 0xff00ffff ]
+	materialBinding	PER_FACE
+	normalBinding	OVERALL
+    }
+
+}
+
+### 106 ###
+SoXipBuilderNode {
+    placement	2 -1.6 4 -0.8
+    flags	()
+    autoPanelPos	518 335 0 0
+    node	    DEF Square_copy FaceSet {
+	numVertices	[ 4, 4, 4, 4, 4, 4 ]
+    }
+
+}
+
+### 107 ###
+SoXipBuilderNode {
+    placement	17.5962 1.38291 20.3829 2.18291
+    flags	()
+    node	    SoXipViewportBorder {
+	fields [  ]
+    }
+
+}
+
+### 108 ###
+SoXipBuilderNode {
+    placement	0.557108 3.17994 2.55711 3.97994
+    flags	()
+    node	    Separator {
+    }
+
+}
+#addChild "108" "109 110 111"
+
+### 109 ###
+SoXipBuilderNode {
+    placement	-2.3 1.3 0.390196 2.1
+    flags	()
+    autoPanelPos	1039 484 0 0
+    node	    SoXipImageTextColor {
+	fields [ SFEnum position, SFColor color ]
+	position	TP_LOWER_RIGHT
+	color	0.5 0.5 1
+    }
+
+}
+
+### 110 ###
+SoXipBuilderNode {
+    placement	1.2 1.5 3.2 2.3
+    flags	()
+    autoPanelPos	1039 249 0 0
+    node	    SoXipImageText {
+	fields [ SFEnum position, SFString text ]
+	position	TP_LOWER_RIGHT
+	text	"XipNehe - Lesson 5"
+    }
+
+}
+
+### 111 ###
+SoXipBuilderNode {
+    placement	3.6 1.5 6.5098 2.3
+    flags	()
+    autoPanelPos	1042 358 0 0
+    node	    SoXipDisplayImageText {
+	fields [ SFNode orthoCamera, SFNode materialUL, SFNode translationUL, SFNode textUL,
+		SFNode materialUC, SFNode translationUC, SFNode textUC, SFNode materialUR,
+		SFNode translationUR, SFNode textUR, SFNode materialCL, SFNode translationCL,
+		SFNode textCL, SFNode materialCR, SFNode translationCR, SFNode textCR,
+		SFNode materialLL, SFNode translationLL, SFNode textLL, SFNode materialLC,
+		SFNode translationLC, SFNode textLC, SFNode materialLR, SFNode translationLR,
+		SFNode textLR,  ]
+	orthoCamera		OrthographicCamera {
+	}
+
+	materialUL		Material {
+	    diffuseColor	0.8 0.8 0.8
+	}
+
+	translationUL		Translation {
+	    translation	-0.955556 1.41333 0
+	}
+
+	textUL		SoXipText2 {
+	    fields [ SFString string, SFEnum justification, SFEnum vAlignment ]
+	    string	""
+	    justification	LEFT
+	    vAlignment	TOP
+	}
+
+	materialUC		Material {
+	    diffuseColor	0.8 0.8 0.8
+	}
+
+	translationUC		Translation {
+	    translation	0 1.41333 0
+	}
+
+	textUC		SoXipText2 {
+	    fields [ SFString string, SFEnum justification, SFEnum vAlignment ]
+	    string	""
+	    justification	LEFT
+	    vAlignment	TOP
+	}
+
+	materialUR		Material {
+	    diffuseColor	0.8 0.8 0.8
+	}
+
+	translationUR		Translation {
+	    translation	0.955556 1.41333 0
+	}
+
+	textUR		SoXipText2 {
+	    fields [ SFString string, SFEnum justification, SFEnum vAlignment ]
+	    string	""
+	    justification	RIGHT
+	    vAlignment	TOP
+	}
+
+	materialCL		Material {
+	    diffuseColor	0.8 0.8 0.8
+	}
+
+	translationCL		Translation {
+	    translation	-0.955556 0 0
+	}
+
+	textCL		SoXipText2 {
+	    fields [ SFString string, SFEnum justification, SFEnum vAlignment ]
+	    string	""
+	    justification	LEFT
+	    vAlignment	CENTER
+	}
+
+	materialCR		Material {
+	    diffuseColor	0.8 0.8 0.8
+	}
+
+	translationCR		Translation {
+	    translation	0.955556 0 0
+	}
+
+	textCR		SoXipText2 {
+	    fields [ SFString string, SFEnum justification, SFEnum vAlignment ]
+	    string	""
+	    justification	RIGHT
+	    vAlignment	CENTER
+	}
+
+	materialLL		Material {
+	    diffuseColor	0.8 0.8 0.8
+	}
+
+	translationLL		Translation {
+	    translation	-0.955556 -1.41333 0
+	}
+
+	textLL		SoXipText2 {
+	    fields [ SFString string, SFEnum justification, SFEnum vAlignment ]
+	    string	""
+	    justification	LEFT
+	    vAlignment	BOTTOM
+	}
+
+	materialLC		Material {
+	    diffuseColor	0.8 0.8 0.8
+	}
+
+	translationLC		Translation {
+	    translation	0 -1.41333 0
+	}
+
+	textLC		SoXipText2 {
+	    fields [ SFString string, SFEnum justification, SFEnum vAlignment ]
+	    string	""
+	    justification	LEFT
+	    vAlignment	BOTTOM
+	}
+
+	materialLR		Material {
+	    diffuseColor	0.5 0.5 1
+	}
+
+	translationLR		Translation {
+	    translation	0.955556 -1.41333 0
+	}
+
+	textLR		SoXipText2 {
+	    fields [ SFString string, SFEnum justification, SFEnum vAlignment ]
+	    string	"XipNehe - Lesson 5
+"
+	    justification	RIGHT
+	    vAlignment	BOTTOM
+	}
+
+    }
+
+}
+
+### packages ###
+SoXipBuilderPackage {
+    def	-18
+    placement	20.7 1.5 22.7 2.3
+    name	"Text"
+    members	[ 108, 109, 110, 111 ]
+    position	2.05 1.67157 1
+    height	16
+    inputs	[  ]
+    inputsChildIndex	[  ]
+    inputsPlacement	0.00490022 -2.5 2.0049 -1.7
+    outputs	108
+    outputsPlacement	0.00490022 5.04314 2.0049 5.84314
+}
+
+SoXipBuilderPackage {
+    def	-17
+    placement	14.7 1.5 16.7 2.3
+    name	"Cube"
+    members	[ 95, 96, 97, 98, 99, 100, 101, 102,
+		      103, 104, 105, 106 ]
+    position	-1.48452 -1.52528 1
+    height	16
+    inputs	[  ]
+    inputsChildIndex	[  ]
+    inputsPlacement	-1.2 -6.6 0.8 -5.8
+    outputs	95
+    outputsPlacement	-1.05 2.8 0.95 3.6
+}
+
+SoXipBuilderPackage {
+    def	-16
+    placement	12.3 1.5 14.3 2.3
+    name	"Pyramid"
+    members	[ 87, 88, 89, 90, 91, 92, 93, 94 ]
+    position	-1.85 -0.9 1
+    height	16
+    inputs	[  ]
+    inputsChildIndex	[  ]
+    inputsPlacement	-1.2 -5.4 0.8 -4.6
+    outputs	87
+    outputsPlacement	-1.05 2.8 0.95 3.6
+}
+
+SoXipBuilderPackage {
+    def	-15
+    placement	7.5 3.6 9.5 4.4
+    name	"Nehe_Lesson_5"
+    members	[ -18, -17, -16, 83, 84, 85, 86, 107 ]
+    position	12.9206 -0.361386 1
+    height	19.2694
+    inputs	[  ]
+    inputsChildIndex	[  ]
+    inputsPlacement	10.8 -1.3 12.8 -0.5
+    outputs	83
+    outputsPlacement	10.8 7.26581 12.8 8.06581
+}
+
+SoXipBuilderPackage {
+    def	-14
+    placement	6.3 -0.9 8.3 -0.1
+    name	"Square"
+    members	[ 64, 65, 66, 67, 68, 69, 70, 71,
+		      72, 73, 74, 75, 76, 77 ]
+    position	1.31548 -4.81122 1
+    height	16
+    inputs	[  ]
+    inputsChildIndex	[  ]
+    inputsPlacement	-1.2 -6.6 0.8 -5.8
+    outputs	64
+    outputsPlacement	-1.05 2.8 0.95 3.6
+}
+
+SoXipBuilderPackage {
+    def	-13
+    placement	9.6 0.3 11.6 1.1
+    name	"Text"
+    members	[ 79, 80, 81, 82 ]
+    position	1.5 1.67157 1
+    height	16
+    inputs	[  ]
+    inputsChildIndex	[  ]
+    inputsPlacement	0.00490046 -2.5 2.0049 -1.7
+    outputs	79
+    outputsPlacement	0.00490046 5.04314 2.0049 5.84314
+}
+
+SoXipBuilderPackage {
+    def	-12
+    placement	7.5 0.3 9.5 1.1
+    name	"Triangle"
+    members	[ 50, 51, 52, 53, 54, 55, 56, 57,
+		      58, 59, 60, 61, 62, 63 ]
+    position	-1.33152 -6.85529 1
+    height	16
+    inputs	[  ]
+    inputsChildIndex	[  ]
+    inputsPlacement	-4.8 -5.1 -2.8 -4.3
+    outputs	50
+    outputsPlacement	-1.05 2.8 0.95 3.6
+}
+
+SoXipBuilderPackage {
+    def	-11
+    placement	4.8 3.6 6.8 4.4
+    name	"Nehe_Lesson_4"
+    members	[ -14, -13, -12, 46, 47, 48, 49, 78 ]
+    position	7.32754 -3.60229 1
+    height	13.7124
+    inputs	[  ]
+    inputsChildIndex	[  ]
+    inputsPlacement	6.3 -2.5 8.3 -1.7
+    outputs	46
+    outputsPlacement	6.3 5.5 8.3 6.3
+}
+
+SoXipBuilderPackage {
+    def	-10
+    placement	10.8 0.9 12.8 1.7
+    name	"Text"
+    members	[ 41, 42, 43, 44 ]
+    position	1.4 1.67157 1
+    height	16
+    inputs	[  ]
+    inputsChildIndex	[  ]
+    inputsPlacement	0.00490046 -2.5 2.0049 -1.7
+    outputs	41
+    outputsPlacement	0.00490046 5.04314 2.0049 5.84314
+}
+
+SoXipBuilderPackage {
+    def	-9
+    placement	8.4 0.9 10.4 1.7
+    name	"Square"
+    members	[ 36, 37, 38, 39, 40 ]
+    position	-0.180253 -4.0876 1
+    height	16
+    inputs	[  ]
+    inputsChildIndex	[  ]
+    inputsPlacement	-1.05 -4.9 0.95 -4.1
+    outputs	36
+    outputsPlacement	-1.05 2.8 0.95 3.6
+}
+
+SoXipBuilderPackage {
+    def	-8
+    placement	6 0.9 8 1.7
+    name	"Triangle"
+    members	[ 31, 32, 33, 34, 35 ]
+    position	-0.00497648 -4.36564 1
+    height	16
+    inputs	[  ]
+    inputsChildIndex	[  ]
+    inputsPlacement	-1.05 -4.9 0.95 -4.1
+    outputs	31
+    outputsPlacement	-1.05 2.8 0.95 3.6
+}
+
+SoXipBuilderPackage {
+    def	-7
+    placement	1.8 3.6 3.8 4.4
+    name	"Nehe_Lesson3"
+    members	[ -10, -9, -8, 27, 28, 29, 30, 45 ]
+    position	4.61837 -2.08112 1
+    height	17.9003
+    inputs	[  ]
+    inputsChildIndex	[  ]
+    inputsPlacement	4.5 -1.9 6.5 -1.1
+    outputs	27
+    outputsPlacement	4.5 6.1 6.5 6.9
+}
+
+SoXipBuilderPackage {
+    def	-6
+    placement	14.7 1.5 16.7 2.3
+    name	"Text"
+    members	[ 23, 24, 25, 26 ]
+    position	1.55 1.67157 1
+    height	16
+    inputs	[  ]
+    inputsChildIndex	[  ]
+    inputsPlacement	0.00490057 -2.5 2.0049 -1.7
+    outputs	23
+    outputsPlacement	0.00490057 5.04314 2.0049 5.84314
+}
+
+SoXipBuilderPackage {
+    def	-5
+    placement	11.7 1.5 13.7 2.3
+    name	"Rectangle"
+    members	[ 17, 18, 19, 20, 21 ]
+    position	-0.0500002 -0.65 1
+    height	16
+    inputs	[  ]
+    inputsChildIndex	[  ]
+    inputsPlacement	-1.05 -4.9 0.95 -4.1
+    outputs	17
+    outputsPlacement	-1.05 2.8 0.95 3.6
+}
+
+SoXipBuilderPackage {
+    def	-4
+    placement	9.3 1.5 11.3 2.3
+    name	"Triangle"
+    members	[ 12, 13, 14, 15, 16 ]
+    position	0 0 1
+    height	16
+    inputs	[  ]
+    inputsChildIndex	[  ]
+    inputsPlacement	-1.05 -4.9 0.95 -4.1
+    outputs	12
+    outputsPlacement	-1.05 2.8 0.95 3.6
+}
+
+SoXipBuilderPackage {
+    def	-3
+    placement	-0.9 3.6 1.1 4.4
+    name	"Nehe_Lesson_2"
+    members	[ -6, -5, -4, 8, 9, 10, 11, 22 ]
+    position	7.3765 -0.906536 1
+    height	16
+    inputs	[  ]
+    inputsChildIndex	[  ]
+    inputsPlacement	8.13599 -1.3 10.136 -0.5
+    outputs	8
+    outputsPlacement	6.3 6.3 8.3 7.1
+}
+
+SoXipBuilderPackage {
+    def	-2
+    placement	-1.8 1.5 0.2 2.3
+    name	"Text"
+    members	[ 4, 5, 6, 7 ]
+    position	0.949999 1.67157 1
+    height	16
+    inputs	[  ]
+    inputsChildIndex	[  ]
+    inputsPlacement	0.00490117 -2.5 2.0049 -1.7
+    outputs	4
+    outputsPlacement	0.00490117 5.04314 2.0049 5.84314
+}
+
+SoXipBuilderPackage {
+    def	-1
+    placement	-3.9 3.6 -1.9 4.4
+    name	"Nehe_Lesson_1"
+    members	[ -2, 1, 2, 3 ]
+    position	-2.55218 1.73839 1
+    height	16
+    inputs	[  ]
+    inputsChildIndex	[  ]
+    inputsPlacement	-5.21405 -1.3 -3.21405 -0.5
+    outputs	1
+    outputsPlacement	-5.21405 6.1 -3.21405 6.9
+}
+
+SoXipBuilderPackage {
+    def	0
+    members	[ -15, -11, -7, -3, -1, 0 ]
+    position	-0.153346 -1.48939 1
+    height	18.9652
+    inputs	[  ]
+    inputsChildIndex	[  ]
+    outputs	[  ]
+}
+
